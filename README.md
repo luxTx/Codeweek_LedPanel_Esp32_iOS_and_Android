@@ -1,1 +1,85 @@
 # Codeweek_LedPanel_Esp32_iOS_-_Android
+## Ratisbonacoding e.V. X MINT-Labs Regensburg
+
+Librarys needed:
+RemoteXY
+Adafruit
+
+// GIF MIT PANEL BEISPIEL EINFÜGEN
+
+Dieses Repository enthält den Quellcode für ein Led-Panel basierend auf einem ESP-32. Das Ziel der Veranstaltung war es, ein Led-Panel zu bauen das mithilfe eines Mobilgerätes, von einem Tablet oder Smartphone über Bluetooth gesteuert werden kann.
+
+[Veranstaltung]: https://bayern.codeweek.de/programm/veranstaltung/2022-10-07-steuerung-einer-led-lampe
+
+## Repository Aufbau
+
+Hier findet ihr die Beschreibung, wie ihr eure Entwicklungsumgebung aufsetzen müsst und wie das Hardware-Setup grundsätzlich geht. Im Ordner `RemoteXY` findet ihr eine Beschreibung, wie eine Steuerung für das Auto in RemoteXY erstellt und als Code herunterladen kann, sowie ein fertiges Beispiel. Als Alternative, findet ihr in dem `MIT App Inventor` Ordner eine Beschreibung und fertige Codes für die Steuerung des Autos über MIT App Inventor.
+
+## Entwicklungsumgebung
+
+### Arduino Studio 1.8.19
+
+Hier herunterladen https://downloads.arduino.cc/arduino-1.8.19-windows.exe und installieren.
+
+#### ESP32 Board
+
+Dann müssen wir die board library für das ESP32 board installieren:
+
+* `File > Preferences > Additional Board Manager Urls`: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json eintragen
+* `Tools > Board > Board Manager` suchen nach ESP32 und installieren
+
+#### ESPServo Bibliothek
+
+* `Sketch > Include Library > Manage Libraries` suche nach `esp32Servo` und dann installieren (nicht esp32servo360).
+
+    <img src="doc/esp32servo.png" width="750">
+
+#### Board einrichten
+
+* `Tools > Board > Esp32 Arduino` und wählt dort `DOIT ESP32 DEVKIT` aus.
+
+## Hardware-Setup & Schema
+
+Wir verwenden den L298N Motortreiber für zwei Dinge.
+
+1. Er kann den Motor links und rechts herum drehen lassen
+2. Der Pin `5V` liefert uns 5V aus der Batterie die wir brauchen um den ESP32 mit Strom zu versorgen.
+
+| L298N Motor Driver  | ESP32 | Funktion |
+| ------------- | ------------- | ------------- |
+| 5V   | VIN	| Spannungsversorgung (+) |
+| ENA	| D12	| Geschwindingkeit |
+| IN1	| D32	| Drehrichtung 1 |
+| IN2	| D33	| Drehrichtung 2 |
+| GND	| GND	| Spannungsversorgung (-) |
+
+| Servo  | ESP32 | Funktion |
+| ------------- | ------------- | ------------- |
+| Braun  | GND  | Spannungsversorgung (-) |
+| Rot	| VIN	| Spannungsversorgung (+) |
+| Gelb	| D12	| Lenkeinschlag |
+
+![Schematic](doc/schematic.jpeg "Schematic")
+
+## Appendix
+
+### ESP32 Pinout
+
+![L298 Pin Diagram](doc/ESP32-pinout-mapping.png)
+
+[Quelle](https://microcontrollerslab.com/esp32-pinout-use-gpio-pins/)
+
+### L298N Motortreiber
+
+Der L298N Motortreiber ist ein Controller, der eine H-Brücke verwendet, der die Richtung und Geschwindigkeit von bis zu 2 Gleichstrommotoren steuern kann. Die Motorsteuerung L298N hat insgesamt 14 Pins mit verschiedenen Funktionen.
+
+![L298N Pin Diagram](doc/l298n_modul_pinout.jpg)
+
+[Quelle](https://components101.com/modules/l293n-motor-driver-module)
+
+
+
+
+
+
+
