@@ -31,5 +31,7 @@ Wenn sie aber zu ungeduldig waren und dies schon passiert ist starten sie wieder
 8. Gehen sie auf Bluetooth
 9. Wählen sie ihr Gerät mit dem Namen aus den sie in Schritt 3. definiert haben, hier "LED-Panel-Name"
 10. Wenn sie verbunden sind können sie jetzt die Leds mit dem angezeigtem Layout steuern
-![LedPanel_ColorRemote](https://user-images.githubusercontent.com/69899600/200095733-7032b31d-5521-40fd-8762-84669c304b59.JPG)
+<img src="https://user-images.githubusercontent.com/69899600/200095733-7032b31d-5521-40fd-8762-84669c304b59.JPG" width="300" height="500">
+<img>
+
 11. Viel Spaß!
