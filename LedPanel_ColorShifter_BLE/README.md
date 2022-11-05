@@ -3,7 +3,7 @@
 
 
 ### Aufspielen/flashen des Quellcodes auf den Arduino
-1. Öffnen sie die Datei **LedPanel_ColorShifter_BLE.ino** oder laden sie sich sie hier herunter: [LedPanel_ColorShifter_BLE.ino](LedPanel_ColorShifter_BLE/LedPanel_ColorShifter_BLE.ino)
+1. Öffnen sie die Datei **LedPanel_ColorShifter_BLE.ino** oder laden sie sich sie hier herunter: [LedPanel_ColorShifter_BLE.ino](https://github.com/GiThUbLudwig/Codeweek_LedPanel_Esp32_iOS_and_Android/blob/325ee4223153c943bc235e9459c107d3029122a1/LedPanel_ColorShifter_BLE/LedPanel_ColorShifter_BLE.ino)
 2. Öffnen sie diese in Arduino Studio
 3. Suchen sie folgende Variablen im Quellcode und passen sie diese auf ihr Projekt an:
 ```
