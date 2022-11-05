@@ -1,9 +1,6 @@
 # Codeweek_LedPanel_Esp32_iOS_-_Android
 ## [Ratisbonacoding e.V.](https://ratisbona-coding.org/)     X     [MINT-Labs Regensburg](https://www.mint-labs-regensburg.de/)
 
-Librarys needed:
-RemoteXY
-Adafruit
 
 // GIF MIT PANEL BEISPIEL EINFÜGEN
 
