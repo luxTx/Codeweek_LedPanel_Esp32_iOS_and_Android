@@ -12,7 +12,8 @@ war es, ein Led-Panel zu bauen das mithilfe eines Mobilgerätes, von einem Table
 ## Repository Aufbau
 
 - Hier findet ihr die Beschreibung, wie ihr eure Entwicklungsumgebung aufsetzen müsst und wie das Hardware-Setup grundsätzlich aufgebaut ist.
-- Im Ordner `RemoteXY` findet ihr den Quellcode, sowie eine Anleitung zum aufspielen/flashen des Quellcodes auf den ESP-32.
+- Im Ordner `LedPanel_Remote_BLE` und `LedPanel_ColorShifter_BLE` findet ihr jeweils zwei unterschiedliche Fernbedienungen, sowie eine Anleitung zum aufspielen/flashen des Quellcodes auf den ESP-32.
+- Damit dies funktioniert muss jedoch die Entwicklungsumgebung vorbereitet werden was in dem nachfolgendem Block erklärt wird.
 
 ## Entwicklungsumgebung
 
@@ -52,7 +53,7 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 <img src="https://user-images.githubusercontent.com/69899600/200091219-74b7ca30-0d31-4203-83a9-6ee3d4292763.jpg" width="500" height="300" />
 <img>
 
-#### Board einrichten
+#### Board einrichten / richtiges Board auswählen
 
 * `Tools > Board > Esp32 Arduino` und wählt dort `ESP32 Dev Module` aus.
 
