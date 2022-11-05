@@ -2,7 +2,7 @@
 ## [Ratisbonacoding e.V.](https://ratisbona-coding.org/)     X     [MINT-Labs Regensburg](https://www.mint-labs-regensburg.de/)
 
 
-// GIF MIT PANEL BEISPIEL EINFÜGEN
+// GIF MIT PANEL BEISPIEL Coming soon...
 
 Dieses Repository enthält den Quellcode für ein Led-Panel basierend auf einem ESP-32. Das Ziel der 
 [Veranstaltung](https://bayern.codeweek.de/programm/veranstaltung/2022-10-07-steuerung-einer-led-lampe) 
@@ -80,7 +80,7 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 #### Schaltplan - Schematic
 
-![Schematic]()
+![Schematic]() Coming soon...
 
 ## Anhang
 
