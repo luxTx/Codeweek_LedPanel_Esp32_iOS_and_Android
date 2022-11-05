@@ -2,7 +2,7 @@
 
 
 
-### Aufspielen/flashen des Quellcodes auf den Arduino
+### Aufspielen/flashen des Quellcodes auf den Esp-32
 1. Öffnen sie die Datei **LedPanel_Remote_BLE.ino** oder laden sie sich sie hier herunter: [LedPanel_Remote_BLE.ino](https://github.com/GiThUbLudwig/Codeweek_LedPanel_Esp32_iOS_and_Android/blob/0de686a12c8844ee6ad3705e80388b1246115a12/LedPanel_ColorRemote_BLE/LedPanel_Remote_BLE/LedPanel_Remote_BLE.ino)
 2. Öffnen sie diese in Arduino Studio
 3. Suchen sie folgende Variablen im Quellcode und passen sie diese auf ihr Projekt an:
