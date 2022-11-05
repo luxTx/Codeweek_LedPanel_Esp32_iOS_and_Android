@@ -32,7 +32,7 @@ Wenn sie aber zu ungeduldig waren und dies schon passiert ist starten sie wieder
 9. Wählen sie ihr Gerät mit dem Namen aus den sie in Schritt 3. definiert haben, hier "LED-Panel-Name"
 10. Wenn sie verbunden sind können sie jetzt die Leds mit dem angezeigtem Layout steuern
 
-<img src="https://user-images.githubusercontent.com/69899600/200094345-251e4f71-d74b-4d7d-838f-5239736ec90a.JPG" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/69899600/200094345-251e4f71-d74b-4d7d-838f-5239736ec90a.JPG" width="300" height="500">
 <img>
 
 11. Viel Spaß!
