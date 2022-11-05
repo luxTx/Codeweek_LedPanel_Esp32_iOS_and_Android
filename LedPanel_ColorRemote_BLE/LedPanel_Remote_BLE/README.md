@@ -21,8 +21,9 @@ int NUM_LEDS = 29;   // 29 = muss durch die Anzahl der Leds die bei ihnen verbau
 
 <img src="https://user-images.githubusercontent.com/69899600/200096531-579291b3-7b52-4352-bf11-44f1c605300d.png" width="600" height="200">
 <img>
+
 ### Einrichtung von RemoteXY auf dem Mobilgerät
-Damit sie ihr Led Panel steuern können, müssen sie die App unter folgendem Link herunterladen: [Downloadlink](https://remotexy.com/en/download/)
+Damit sie ihr Led Panel steuern können, müssen sie die App RemoteXY unter folgendem Link herunterladen: [Downloadlink](https://remotexy.com/en/download/)
 
 6. !!! WICHTIG verbinden sie **NICHT** das Esp32 mit den Bluetootheinstellungen des Mobilgerätes, sondern nur in der App!!!
 Wenn sie aber zu ungeduldig waren und dies schon passiert ist starten sie wieder bei Schritt 3. und vergeben sie einen neuen Namen! Besonders bei iOS kann dies zu Problemen führen.
