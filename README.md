@@ -12,7 +12,7 @@ war es, ein Led-Panel zu bauen das mithilfe eines Mobilgerätes, von einem Table
 ## Repository Aufbau
 
 - Hier findet ihr die Beschreibung, wie ihr eure Entwicklungsumgebung aufsetzen müsst und wie das Hardware-Setup grundsätzlich aufgebaut ist.
-- Im Ordner `LedPanel_Remote_BLE` und `LedPanel_ColorShifter_BLE` findet ihr jeweils zwei unterschiedliche Fernbedienungen, sowie eine Anleitung zum aufspielen/flashen des Quellcodes auf den ESP-32.
+- Im Ordner `LedPanel_Remote_BLE` und `LedPanel_ColorShifter_BLE` findet ihr jeweils eine Fernbedienungen, sowie eine Anleitung zum aufspielen/flashen des Quellcodes auf den ESP-32.
 - Damit dies funktioniert muss jedoch die Entwicklungsumgebung vorbereitet werden was in dem nachfolgendem Block erklärt wird.
 
 ## Entwicklungsumgebung
