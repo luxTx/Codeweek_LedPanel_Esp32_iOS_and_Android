@@ -28,12 +28,11 @@ Damit sie ihr Led Panel steuern können, müssen sie die App RemoteXY unter folg
 6. !!! WICHTIG verbinden sie **NICHT** das Esp32 mit den Bluetootheinstellungen des Mobilgerätes, sondern nur in der App!!!
 Wenn sie aber zu ungeduldig waren und dies schon passiert ist starten sie wieder bei Schritt 3. und vergeben sie einen neuen Namen! Besonders bei iOS kann dies zu Problemen führen.
 7. Öffnen sie die RemoteXY App und drücken sie das Plus rechts oben in der Ecke
-8. Gehen sie auf Bluetooth
-9. Wählen sie ihr Gerät mit dem Namen aus den sie in Schritt 3. definiert haben, hier "LED-Panel-Name"
-10. Wenn sie verbunden sind können sie jetzt die Leds mit dem angezeigtem Layout steuern
+    - Gehen sie auf Bluetooth
+    - Wählen sie ihr Gerät mit dem Namen aus den sie in Schritt 3. definiert haben, hier "LED-Panel-Name"
+    - Wenn sie verbunden sind können sie jetzt die Leds mit dem angezeigtem Layout steuern
 
-<img src="https://user-images.githubusercontent.com/69899600/200094345-251e4f71-d74b-4d7d-838f-5239736ec90a.JPG" width="300" height="500">
-<img>
+![ColorshifterConnectingApp](https://user-images.githubusercontent.com/69899600/200400174-5bd38df4-28af-4a7f-a440-d847032ea25a.gif)
 
-11. Viel Spaß!
+8. Viel Spaß!
 
