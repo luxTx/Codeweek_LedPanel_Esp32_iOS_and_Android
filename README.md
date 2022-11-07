@@ -8,6 +8,8 @@ Dieses Repository enthält den Quellcode für ein Led-Panel basierend auf einem 
 war es, ein Led-Panel zu bauen das mithilfe eines Mobilgerätes, von einem Tablet oder Smartphone über Bluetooth gesteuert werden kann.
 
 
+
+
 ## Repository Aufbau
 
 - Hier findet ihr die Beschreibung, wie ihr eure Entwicklungsumgebung aufsetzen müsst und wie das Hardware-Setup grundsätzlich aufgebaut ist.
@@ -15,11 +17,18 @@ war es, ein Led-Panel zu bauen das mithilfe eines Mobilgerätes, von einem Table
 - Damit dies funktioniert muss jedoch die Entwicklungsumgebung vorbereitet werden was in dem nachfolgendem Block erklärt wird.
 - Die App RemoteXY hat manchmal ein paar Verbindungsprobleme dadurch kann es zu "Disconnects" kommen, nicht von diesen abschrecken lassen und einfach nochmal probieren sobald der Esp wieder bereit ist.
 
+
+
+
 ## Entwicklungsumgebung
 
 ### Arduino Studio 1.8.19
 
 Hier herunterladen https://downloads.arduino.cc/arduino-1.8.19-windows.exe und installieren.
+
+
+
+
 
 #### ESP32 Board
 
@@ -33,6 +42,9 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 <img src="https://user-images.githubusercontent.com/69899600/200091466-2ec865a3-b5e8-44c1-8f2f-9e3639333fe1.jpg" width="500" height="300"  />
 <img>
 
+
+
+
 #### Adafruit Bibliothek
 
 * Downloadlink der Bibliothek: https://github.com/adafruit/Adafruit_NeoPixel
@@ -42,6 +54,8 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 <img src="https://user-images.githubusercontent.com/69899600/200089927-83541b62-df84-4651-a997-0bbd690aa709.jpg" width="500" height="300" />
 <img>
+
+
 
 #### RemoteXY Bibliothek
 
@@ -53,6 +67,8 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 <img src="https://user-images.githubusercontent.com/69899600/200091219-74b7ca30-0d31-4203-83a9-6ee3d4292763.jpg" width="500" height="300" />
 <img>
 
+
+
 #### Board einrichten / richtiges Board auswählen
 
 * `Tools > Board > Esp32 Arduino` und wählt dort `ESP32 Dev Module` aus.
@@ -62,7 +78,7 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 
 ### Wahl der Fernbedienung
-- Die Funktionen die in der nachfolgenden Tabelle abgebildet sind repräsentieren die "Fähigkeiten" der jeweiligen Fernbedienung
+- Die Funktionen die in der nachfolgenden Tabelle abgebildet sind repräsentieren die "Fähigkeiten" der jeweiligen Fernbedienung. Klicke auf den Namen der Fernbedienung um auf die Anleitung zum flashen/aufspielen zu kommen, wenn du bereits die Entwicklungsumgebung aufgesetzt hast.
 
 | [LedPanel_Remote_BLE](https://github.com/luxTx/Codeweek_LedPanel_Esp32_iOS_and_Android/tree/main/LedPanel_Remote_BLE) |[LedPanel_ColorShifter_BLE](https://github.com/luxTx/Codeweek_LedPanel_Esp32_iOS_and_Android/tree/main/LedPanel_ColorShifter_BLE) |
 | ------------- | ------------- |
@@ -91,6 +107,10 @@ Um das Projekt nachzubauen:
 - [ ] Lötkobeln
 - [ ] Heissklebepistole
 
+
+
+
+
 ## Hardware - Setup 
 
 | Led Stripe  | ESP32 | Funktion |
@@ -102,6 +122,10 @@ Um das Projekt nachzubauen:
 #### Schaltplan - Schematic
 
 ![Schematic]() Coming soon...
+
+
+
+
 
 ## Anhang
 
