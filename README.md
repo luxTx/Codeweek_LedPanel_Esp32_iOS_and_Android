@@ -57,10 +57,14 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 * `Tools > Board > Esp32 Arduino` und wählt dort `ESP32 Dev Module` aus.
 
+
+
+
+
 ### Wahl der Fernbedienung
 - Die Funktionen die in der nachfolgenden Tabelle abgebildet sind repräsentieren die "Fähigkeiten" der jeweiligen Fernbedienung
 
-| `LedPanel_Remote_BLE`  |`LedPanel_ColorShifter_BLE` |
+| [LedPanel_Remote_BLE](https://github.com/luxTx/Codeweek_LedPanel_Esp32_iOS_and_Android/tree/main/LedPanel_Remote_BLE) |[LedPanel_ColorShifter_BLE](https://github.com/luxTx/Codeweek_LedPanel_Esp32_iOS_and_Android/tree/main/LedPanel_ColorShifter_BLE) |
 | ------------- | ------------- |
 | <img src="https://user-images.githubusercontent.com/69899600/200420092-601ed556-2a0a-425c-8986-20d1e9a0c159.JPG" width="250" height="400" /> <img> | <img src="https://user-images.githubusercontent.com/69899600/200420120-5d468743-1a10-40f8-8721-b5972bde3681.JPG" width="250" height="400" /> <img>|
 | `Mode A` ![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif) | `Colorshifter`![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif) |
