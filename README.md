@@ -45,7 +45,7 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 #### RemoteXY Bibliothek
 
-* Downloadlink der Bibliothek(Direktlink): https://remotexy.com/en/library/
+* Downloadlink der Bibliothek: https://remotexy.com/en/library/
 * `Sketch > Include Library > Manage Libraries` suche nach `RemoteXY` und dann installieren (nicht esp32servo360).
 
 [RemoteXYBibliothek](https://user-images.githubusercontent.com/69899600/200091219-74b7ca30-0d31-4203-83a9-6ee3d4292763.jpg)
