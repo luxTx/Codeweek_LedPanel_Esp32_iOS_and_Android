@@ -15,12 +15,11 @@ int NUM_LEDS = 29;   // 29 = muss durch die Anzahl der Leds die bei ihnen verbau
 ```
 4. Laden sie den Quellcode auf ihr Esp32 in dem sie in Arduino Studio links oben in der Ecke auf den Pfeil nach rechts klicken (Halten sie die Boottaste auf dem Esp32 gedrückt, wenn "Connecting ....." angezeigt wird, lassen sie diese los wenn die Punkte nicht weiter fortlaufen)
 
-<img src="https://user-images.githubusercontent.com/69899600/200096449-d36365ee-7ae1-416d-a6da-ef456b08e47d.png" width="800" height="100">
-<img>
+![ConnectingRemote](https://user-images.githubusercontent.com/69899600/200394269-1152c7e4-fa8d-4ff8-86b0-e45c508b22cb.gif)
+
 5. Warten sie bis das hochladen abgeschlossen ist und in der Console folgendes steht: 
 
-<img src="https://user-images.githubusercontent.com/69899600/200096531-579291b3-7b52-4352-bf11-44f1c605300d.png" width="600" height="200">
-<img>
+![UploadRemote](https://user-images.githubusercontent.com/69899600/200394286-803a671b-25e6-4529-bd35-83909121798e.gif)
 
 ### Einrichtung von RemoteXY auf dem Mobilgerät
 Damit sie ihr Led Panel steuern können, müssen sie die App RemoteXY unter folgendem Link herunterladen: [Downloadlink](https://remotexy.com/en/download/)
