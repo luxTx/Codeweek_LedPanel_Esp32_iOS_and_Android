@@ -57,14 +57,26 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 * `Tools > Board > Esp32 Arduino` und wählt dort `ESP32 Dev Module` aus.
 
-## Hardware-Liste
+### Wahl der Fernbedienung
+- Die Funktionen die in der nachfolgenden Tabelle abgebildet sind repräsentieren die "Fähigkeiten" der jeweiligen Fernbedienung
 
+| `LedPanel_Remote_BLE`  |`LedPanel_ColorShifter_BLE` |
+| ------------- | ------------- |
+| `Mode A` ![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif) | `Colorshifter`![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif) |
+| `Mode B` ![ModeB](https://user-images.githubusercontent.com/69899600/200407250-fabff4fa-d1ad-40d0-8c33-8cde1c6fed39.gif) |  |
+| `Mode C` ![ModeC](https://user-images.githubusercontent.com/69899600/200408049-fd70a20e-6ed9-433b-aa03-dc7a39945273.gif) |  |
+|  |  |
+
+## Hardware-Liste
+Um das Projekt nachzubauen:
 - [ ] Esp32
 - [ ] Led-Streifen
 - [ ] Kabel
 - [ ] 5V-Buchse
 - [ ] Ikea-Ribba
 - [ ] Plexiglass-/Milchglassplatte
+- [ ] Mikrousbkabel (zum flashen)
+- [ ] 5V Netzstecker
 
 #### Tools
 - [ ] Lötkobeln
@@ -83,23 +95,6 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 ![Schematic]() Coming soon...
 
 ## Anhang
-
-### Beispiel `LedPanel_ColorShifter_BLE`
-![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif)
-
-### Beispiel Modi `LedPanel_Remote_BLE`
-
-`Mode A`
-
-![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif)
-
-`Mode B`
-
-![ModeB](https://user-images.githubusercontent.com/69899600/200407250-fabff4fa-d1ad-40d0-8c33-8cde1c6fed39.gif)
-
-`Mode C`
-
-![ModeC](https://user-images.githubusercontent.com/69899600/200408049-fd70a20e-6ed9-433b-aa03-dc7a39945273.gif)
 
 ### ESP32 Pinout
 
