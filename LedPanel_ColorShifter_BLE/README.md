@@ -15,12 +15,12 @@ int NUM_LEDS = 29;   // 29 = muss durch die Anzahl der Leds die bei ihnen verbau
 ```
 4. Laden sie den Quellcode auf ihr Esp32 in dem sie in Arduino Studio links oben in der Ecke auf den Pfeil nach rechts klicken (Halten sie die Boottaste auf dem Esp32 gedrückt, wenn "Connecting ....." angezeigt wird, lassen sie diese los wenn die Punkte nicht weiter fortlaufen)
 
-<img src="https://user-images.githubusercontent.com/69899600/200096449-d36365ee-7ae1-416d-a6da-ef456b08e47d.png" width="800" height="100">
-<img>
+![ColorshifterConnect](https://user-images.githubusercontent.com/69899600/200397546-dded2569-ee93-463f-84f6-a0170dd10e27.gif)
+
+
 5. Warten sie bis das hochladen abgeschlossen ist und in der Console folgendes steht: 
 
-<img src="https://user-images.githubusercontent.com/69899600/200096531-579291b3-7b52-4352-bf11-44f1c605300d.png" width="600" height="200">
-<img>
+![ColorshifterUpload](https://user-images.githubusercontent.com/69899600/200397561-bd658e85-4de1-4bdf-b29b-387ec0f99813.gif)
 
 ### Einrichtung von RemoteXY auf dem Mobilgerät
 Damit sie ihr Led Panel steuern können, müssen sie die App RemoteXY unter folgendem Link herunterladen: [Downloadlink](https://remotexy.com/en/download/)
@@ -28,12 +28,11 @@ Damit sie ihr Led Panel steuern können, müssen sie die App RemoteXY unter folg
 6. !!! WICHTIG verbinden sie **NICHT** das Esp32 mit den Bluetootheinstellungen des Mobilgerätes, sondern nur in der App!!!
 Wenn sie aber zu ungeduldig waren und dies schon passiert ist starten sie wieder bei Schritt 3. und vergeben sie einen neuen Namen! Besonders bei iOS kann dies zu Problemen führen.
 7. Öffnen sie die RemoteXY App und drücken sie das Plus rechts oben in der Ecke
-8. Gehen sie auf Bluetooth
-9. Wählen sie ihr Gerät mit dem Namen aus den sie in Schritt 3. definiert haben, hier "LED-Panel-Name"
-10. Wenn sie verbunden sind können sie jetzt die Leds mit dem angezeigtem Layout steuern
+    - Gehen sie auf Bluetooth
+    - Wählen sie ihr Gerät mit dem Namen aus den sie in Schritt 3. definiert haben, hier "LED-Panel-Name"
+    - Wenn sie verbunden sind können sie jetzt die Leds mit dem angezeigtem Layout steuern
 
-<img src="https://user-images.githubusercontent.com/69899600/200094345-251e4f71-d74b-4d7d-838f-5239736ec90a.JPG" width="300" height="500">
-<img>
+![ColorshifterConnectingApp](https://user-images.githubusercontent.com/69899600/200400174-5bd38df4-28af-4a7f-a440-d847032ea25a.gif)
 
-11. Viel Spaß!
+8. Viel Spaß!
 

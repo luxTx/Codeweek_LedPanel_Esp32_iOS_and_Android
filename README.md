@@ -1,8 +1,7 @@
 # Codeweek_LedPanel_Esp32_iOS_-_Android
 ## [Ratisbonacoding e.V.](https://ratisbona-coding.org/)     X     [MINT-Labs Regensburg](https://www.mint-labs-regensburg.de/)
 
-
-// GIF MIT PANEL BEISPIEL Coming soon...
+![Example](https://user-images.githubusercontent.com/69899600/200413175-f846ea16-7e0f-40bf-803a-cce62a4438fa.gif)
 
 Dieses Repository enthält den Quellcode für ein Led-Panel basierend auf einem ESP-32. Das Ziel der 
 [Veranstaltung](https://bayern.codeweek.de/programm/veranstaltung/2022-10-07-steuerung-einer-led-lampe) 
@@ -14,6 +13,7 @@ war es, ein Led-Panel zu bauen das mithilfe eines Mobilgerätes, von einem Table
 - Hier findet ihr die Beschreibung, wie ihr eure Entwicklungsumgebung aufsetzen müsst und wie das Hardware-Setup grundsätzlich aufgebaut ist.
 - Im Ordner `LedPanel_Remote_BLE` und `LedPanel_ColorShifter_BLE` findet ihr jeweils eine Fernbedienungen, sowie eine Anleitung zum aufspielen/flashen des Quellcodes auf den ESP-32.
 - Damit dies funktioniert muss jedoch die Entwicklungsumgebung vorbereitet werden was in dem nachfolgendem Block erklärt wird.
+- Die App RemoteXY hat manchmal ein paar Verbindungsprobleme dadurch kann es zu "Disconnects" kommen, nicht von diesen abschrecken lassen und einfach nochmal probieren sobald der Esp wieder bereit ist.
 
 ## Entwicklungsumgebung
 
@@ -83,6 +83,23 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 ![Schematic]() Coming soon...
 
 ## Anhang
+
+### Beispiel `LedPanel_ColorShifter_BLE`
+![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif)
+
+### Beispiel Modi `LedPanel_Remote_BLE`
+
+`Mode A`
+
+![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif)
+
+`Mode B`
+
+![ModeB](https://user-images.githubusercontent.com/69899600/200407250-fabff4fa-d1ad-40d0-8c33-8cde1c6fed39.gif)
+
+`Mode C`
+
+![ModeC](https://user-images.githubusercontent.com/69899600/200408049-fd70a20e-6ed9-433b-aa03-dc7a39945273.gif)
 
 ### ESP32 Pinout
 
