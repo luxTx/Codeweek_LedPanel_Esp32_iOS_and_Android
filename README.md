@@ -62,10 +62,15 @@ Dann müssen wir die board Bibliothek für das ESP32 board installieren:
 
 | `LedPanel_Remote_BLE`  |`LedPanel_ColorShifter_BLE` |
 | ------------- | ------------- |
+| <img src="https://user-images.githubusercontent.com/69899600/200420092-601ed556-2a0a-425c-8986-20d1e9a0c159.JPG" width="250" height="400" /> <img> | <img src="https://user-images.githubusercontent.com/69899600/200420120-5d468743-1a10-40f8-8721-b5972bde3681.JPG" width="250" height="400" /> <img>|
 | `Mode A` ![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif) | `Colorshifter`![ModeA](https://user-images.githubusercontent.com/69899600/200408860-648750bc-b959-4a21-a9ae-0df95ec39811.gif) |
 | `Mode B` ![ModeB](https://user-images.githubusercontent.com/69899600/200407250-fabff4fa-d1ad-40d0-8c33-8cde1c6fed39.gif) |  |
 | `Mode C` ![ModeC](https://user-images.githubusercontent.com/69899600/200408049-fd70a20e-6ed9-433b-aa03-dc7a39945273.gif) |  |
-|  |  |
+
+
+
+
+
 
 ## Hardware-Liste
 Um das Projekt nachzubauen:
@@ -75,8 +80,8 @@ Um das Projekt nachzubauen:
 - [ ] 5V-Buchse
 - [ ] Ikea-Ribba
 - [ ] Plexiglass-/Milchglassplatte
-- [ ] Mikrousbkabel (zum flashen)
-- [ ] 5V Netzstecker
+- [ ] Micro-Usb-kabel (zum flashen)
+- [ ] 5V-Netzstecker
 
 #### Tools
 - [ ] Lötkobeln
