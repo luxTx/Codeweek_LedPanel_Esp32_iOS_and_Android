@@ -121,10 +121,7 @@ Um das Projekt nachzubauen:
 
 #### Schaltplan - Schematic
 
-![Schematic]() Coming soon...
-
-
-
+![Schematic](https://user-images.githubusercontent.com/69899600/201984052-ef8de830-1a92-48b6-9000-aabb9b7ded1b.JPG)
 
 
 ## Anhang
