@@ -106,7 +106,7 @@ void loop() {
 
 void ledOff() {
   for (int i = 0; i < NUM_LEDS; i++) {
-    leds.setPixelColor(i, leds.Color(0, 0, 0));  // Moderately bright green color.
+    leds.setPixelColor(i, leds.Color(0, 0, 0));  // Define OFF state of leds
     leds.show();                                 // This sends the updated pixel color to the hardware.
     RemoteXY_delay(delayval);                             // Delay for a period of time (in milliseconds).
   }
@@ -114,7 +114,7 @@ void ledOff() {
 
 void colorWheel() {
   for (int i = 0; i < NUM_LEDS; i++) {
-    leds.setPixelColor(i, leds.Color(RemoteXY.rgb_01_r, RemoteXY.rgb_01_g, RemoteXY.rgb_01_b));  // Moderately bright green color.
+    leds.setPixelColor(i, leds.Color(RemoteXY.rgb_01_r, RemoteXY.rgb_01_g, RemoteXY.rgb_01_b));  // Defines the color picked on the colorWheel
     leds.show();                                                                              // This sends the updated pixel color to the hardware.
     RemoteXY_delay(delayval);                                                                          // Delay for a period of time (in milliseconds).
   }
