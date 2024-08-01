@@ -78,13 +78,13 @@ void loop()
   
   if(RemoteXY.switch_1 == AN){
     for(int i=0;i<NUM_LEDS;i++){
-      leds.setPixelColor(i, leds.Color(RemoteXY.rgb_1_r,RemoteXY.rgb_1_g,RemoteXY.rgb_1_b)); // Moderately bright green color.
+      leds.setPixelColor(i, leds.Color(RemoteXY.rgb_1_r,RemoteXY.rgb_1_g,RemoteXY.rgb_1_b)); // Defines the color picked on the colorWheel
       leds.show(); // This sends the updated pixel color to the hardware.
       delay(delayval); // Delay for a period of time (in milliseconds).
       }
         }else{
           for(int i=0;i<NUM_LEDS;i++){
-            leds.setPixelColor(i, leds.Color(0,0,0)); // Moderately bright green color.
+            leds.setPixelColor(i, leds.Color(0,0,0)); // Define OFF state of leds
             leds.show(); // This sends the updated pixel color to the hardware.
             delay(delayval); // Delay for a period of time (in milliseconds).
             }
